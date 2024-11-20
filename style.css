@@ -1,0 +1,135 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+.carousel-inner img {
+    height: 705px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.534);
+}
+
+.carousel-caption h2 {
+    font-size: 3rem;
+}
+
+.carousel-caption p {
+    font-size: 2rem;
+}
+
+.about-us {
+    padding: 0;
+    background-color: rgb(26, 97, 8);
+}
+
+.about-us .col-md-6 {
+    height: 100%; 
+}
+
+.about-us .col-md-6:last-child {
+    height: 100%; 
+    min-height: 25rem; 
+}
+
+.btnsobrenos {
+    text-decoration: none;
+    background-color: rgb(220, 243, 219);
+    color: rgb(26, 97, 8); 
+    padding: 1rem 1rem; 
+    font-size: 1rem; 
+    font-weight: 800; 
+    border-radius: 1rem; 
+    display: inline-block; 
+    transition: all 0.3s ease; 
+}
+
+.btnsobrenos:hover {
+    background-color: #8deca2; 
+    color: rgb(26, 97, 8); 
+    transform: scale(1.05); 
+}
+
+.delivery {
+   background-color: rgb(144, 207, 226);
+    padding: 0; 
+}
+
+.delivery .col-md-6 {
+    height: 100%; 
+}
+
+.delivery .col-md-6:first-child {
+    height: 100%; 
+    min-height: 25rem; 
+}
+
+.btnentrega{
+    text-decoration: none;
+    background-color: rgb(69, 96, 248);
+    color: rgb(144, 207, 226); 
+    padding: 1rem 1rem; 
+    font-size: 1rem; 
+    font-weight: 800; 
+    border-radius: 1rem; 
+    display: inline-block; 
+    transition: all 0.3s ease; 
+}
+
+.btnentrega:hover {
+    background-color: rgb(65, 93, 252); 
+    color: rgb(144, 207, 226); 
+    transform: scale(1.05); 
+}
+.product-img {
+    width: 200px;
+    height: 150px; 
+    object-fit: cover; 
+  }
+    
+  .social-icons a {
+    margin-left: 30px; 
+  }
+  
+  .social-icons img {
+    width: 20px; 
+    height: auto;
+  }
+  
+  .hero {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .about, .mission, .vision, .values {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about h2, .mission h2, .vision h2, .values h2 {
+    color: var(--cor-principal);
+  }
